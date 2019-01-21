@@ -1,6 +1,6 @@
 Package.describe({
   name: 'raix:push',
-  version: '0.0.0-semantic-release',
+  version: '3.0.0',
   summary: 'Isomorphic Push notifications for APN and GCM',
   git: 'https://github.com/raix/push.git'
 });
@@ -12,8 +12,8 @@ Npm.depends({
 });
 
 Cordova.depends({
-  'phonegap-plugin-push': '1.9.0', // previously 1.8.4
-  'cordova-plugin-device': '1.1.3', // previously 1.1.1
+  'phonegap-plugin-push': '2.2.3', // previously 1.8.4
+  'cordova-plugin-device': '1.1.6', // previously 1.1.1
 });
 
 Package.registerBuildPlugin({
